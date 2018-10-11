@@ -1,4 +1,4 @@
-create table lds_features(datum text);
+create table lds_features(datum datetime); // datetime wichtig für data adapter
 
 select date('now')
 
