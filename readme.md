@@ -1,4 +1,4 @@
-create table lds_features(datum datetime); // datetime wichtig für data adapter
+create table lds_features(datum datetime); // datetime wichtig für data adapter, für bool muss 'boolean' ausgewählt werden, damit das erkannt wird
 
 select date('now')
 
